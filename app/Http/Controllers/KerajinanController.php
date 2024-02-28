@@ -10,19 +10,19 @@ use Illuminate\Support\Facades\Auth;
 class KerajinanController extends Controller
 {
     public function index(){
-        return view('kerajinanIndex');
+        return view('kerajinan.index');
     }
 
     public function show(){
-        return view('kerajinanDetail');
+        return view('kerajinan.detail');
     }
 
     public function create(){
-        return view('kerajinanCreate');
+        return view('kerajinan.create');
     }
 
     public function edit(){
-        return view('kerajinanEdit');
+        return view('kerajinan.edit');
     }
 
     public function store() {
